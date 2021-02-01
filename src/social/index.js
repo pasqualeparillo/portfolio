@@ -16,11 +16,11 @@ function SocialMedia() {
       <div className="flex flex-col lg:w-16 lg:py-0 py-4">
         <p className="text-xs opacity-20">Media</p>
       </div>
-      <div className="flex flex-1 items-start lg:justify-start items-center justify-end">
+      <div className="flex flex-1 ml-4 items-center justify-start">
         <a className="text-xs" href="https://github.com/pasqualeparillo">
           Github
         </a>
-        <a className="text-xs mx-2" href="https://twitter.com/PasqualeParillo">
+        <a className="text-xs mx-4" href="https://twitter.com/PasqualeParillo">
           Twitter
         </a>
         <a
@@ -40,8 +40,8 @@ function Contact() {
       <div className="flex flex-col lg:w-16 lg:py-0 py-4">
         <p className="text-xs opacity-20">Contact</p>
       </div>
-      <div className="flex flex-1 items-start lg:justify-start items-center justify-end">
-        <a className="text-xs" href="mailto:patparillo@gmail.com">
+      <div className="flex flex-1 items-center justify-start">
+        <a className="text-xs mx-4" href="mailto:patparillo@gmail.com">
           patparillo@gmail.com
         </a>
       </div>
@@ -55,8 +55,10 @@ function Resume() {
       <div className="flex flex-col lg:w-16 lg:py-0 py-4">
         <p className="text-xs opacity-20">Resume</p>
       </div>
-      <div className="flex flex-1 items-start lg:justify-start items-center justify-end">
-        <button className="border border-white px-2 text-xs">Download</button>
+      <div className="flex flex-1  justify-start items-center">
+        <button className="border border-white px-2 text-xs mx-4">
+          Download
+        </button>
       </div>
     </div>
   );

@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-
 export default function Projects() {
-  let projectList = Array.from(Array(24).keys());
+  let projectList = Array.from(Array(21).keys());
   return (
     <div className="flex w-full lg:flex-row flex-col self-center py-4">
       <div className="flex flex-col lg:w-16 lg:py-0 py-4">
         <p className="text-xs opacity-20">Work</p>
       </div>
-      <div className="grid lg:grid-cols-4 grid-cols-3 w-full gap-1 ">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 w-full gap-1 ">
         {projectList.map((id) => (
           <Project id={id} key={id} />
         ))}
